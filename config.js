@@ -45,8 +45,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = ''
-  var sticker_author = '               ig\n🔥 @rasel.ganz 🔥'
+  var sticker_name = 'ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴ'
+  var sticker_author = '               ig\n🔥 @ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴ 🔥'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -68,7 +68,7 @@ const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
   var colong_name = 'sikilinsut olang nylong stikell'
-  var colong_author = 'Ciss 📸\n\n@rasel.ganz'
+  var colong_author = 'Ciss 📸\n\n@ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴ'
  } else {
   var colong_name = ctickerpack.cpackname
   var colong_author = ctickerpack.cauthor
@@ -85,28 +85,28 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = '@rasel.ganz'
+global.wm = '@ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴ'
 global.ucpn = ''
 
 //================= Url =================//
-global.linkgc = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
-global.linkig = 'https://www.instagram.com/p/CH1A1c9J5pY/?utm_medium=copy_link'
+global.linkgc = 'https://chat.whatsapp.com'
+global.linkig = 'https://www.instagram.com'
 global.linkyt = ''
-global.linkfb = 'https://fb.watch/aYv0jAffAO'
-global.web = 'https://raselcomel.github.io'
-global.web1 = 'https://anu.rasell.repl.co'
+global.linkfb = 'https://fb.watch.com'
+global.web = 'https://tisudemon.github.io'
+global.web1 = 'https://tisu.demon.repl.co'
 
 global.deslink = ''
-global.titlink = 'Folllow me on Instagram'
-global.bodlink = '@rasel.ganz'
+global.titlink = 'Contact My Number'
+global.bodlink = 'wa.me/+12267776269'
 
 //========= Url Template Button =========//
 global.dtu = 'Group Bot WhatsApp'
-global.urlnya = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
+global.urlnya = 'https://chat.whatsapp.com'
 
 //========= Call Template Button =========//
 global.dtc = 'Add Me'
-global.nmbrnya = '+62 822-5604-8971'
+global.nmbrnya = '+12267776269'
 
 
 //============ Proses Bot ============//
